@@ -1,0 +1,32 @@
+.title{
+    position: absolute;
+    padding-top: 100px;
+    padding-right: 300px;
+    font: var(--font_title);
+}
+
+.img {
+    padding-top: 5px;
+    height: 5vh;
+}
+
+.box{
+    /* justify-content: space-between; */
+    display: flex;
+    padding-top: 100px;
+    width: 25vw;
+    height: 20vh;
+}
+
+.text{
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.info{
+
+}
+
+.content{
+    
+}

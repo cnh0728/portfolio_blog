@@ -1,0 +1,128 @@
+.profile{
+    display: flex;
+    background-color:rgb(93, 93, 102);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    height: 20vh;
+    width: 60vw;
+    padding-top: 13vh;
+    padding-left: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    display: flex;
+    padding-top: 15vh;
+    padding-left: 2vw;
+    flex-direction: row;
+}
+
+.profileTitle{
+    font-size: 10rem;
+    padding-top: 8vh;
+    padding-left: 10vw;
+}
+
+.comment{
+    text-align: right;
+    padding-right: 15vw;
+    padding-top: 5vh;
+    font-style: italic;
+    font-size: 1rem;
+
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+.framework{
+    padding-top: 30vh;
+    padding-left: 3vw;
+}
+
+.certificate{
+    padding-top: 52vh;
+    padding-left: 1vw;
+}
+
+.Awards{
+
+}
+
+:root {
+    --color_0: 255,255,255;
+    --color_27: 233,159,134;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_28: 222,80,33;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 255,255,255;
+    --color_12: 204,204,204;
+    --color_13: 160,160,159;
+    --color_14: 96,94,94;
+    --color_15: 47,46,46;
+    --color_16: 192,210,255;
+    --color_17: 161,187,255;
+    --color_18: 67,120,255;
+    --color_29: 148,54,22;
+    --color_19: 45,80,170;
+    --color_20: 22,40,85;
+    --color_21: 182,232,227;
+    --color_22: 141,209,202;
+    --color_23: 65,186,174;
+    --color_24: 43,124,116;
+    --color_25: 22,62,58;
+    --color_30: 74,27,11;
+    --color_31: 244,234,177;
+    --color_32: 233,219,137;
+    --color_33: 222,195,40;
+    --color_34: 148,130,27;
+    --color_35: 74,65,13;
+    --font_title: normal normal normal 130px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 25px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_3: normal normal normal 130px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_4: normal normal normal 40px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    --font_5: italic normal normal 25px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    --font_6: italic normal normal 23px/1.4em fbbluegothicl,serif;
+    --font_7: italic normal bold 17px/1.4em fbbluegothicl,serif;
+    --font_8: normal normal normal 35px/1.4em fbbluegothicl,serif;
+    --font_9: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --minViewportSize: 320;
+    --color_26: 244,192,175;
+    --maxViewportSize: 1920;
+}
+
