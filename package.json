@@ -23,9 +23,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://www.ramyun_portfolio.com/",
+  "homepage": "http://www.ramyunportfolio.com/",
   "eslintConfig": {
     "extends": [
       "react-app",
