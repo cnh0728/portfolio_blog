@@ -14,15 +14,15 @@ function Projects({img, title, summary, using, bd}){
         <div className={styles.project}
             onMouseEnter={()=>{
                 setHover(true);
-                document.getElementById(title).play();
+                // document.getElementById(title).play();
             }}
             onMouseLeave={()=>{
                 setHover(false);
-                document.getElementById(title).pause();
+                // document.getElementById(title).pause();
             }}
-            onMouseMove={(e)=>{
+            // onMouseMove={(e)=>{
                 
-            }}
+            // }}
         >
             <img src={img} alt={title} className={styles.project__img}/>
             <div>
