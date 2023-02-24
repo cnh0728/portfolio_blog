@@ -3,6 +3,11 @@ import styles from "./Profile.module.css";
 import Info from "../components/info";
 import Skill from "../components/skill";
 
+import personImg from "../img/profile/person.png"
+import calendarImg from "../img/profile/calendar.png"
+import phoneImg from "../img/profile/phone.png"
+import emailImg from "../img/profile/email.png"
+
 function Profile(){
     //여기에 스킬도 같이 넣어버리고 얼굴도 넣을 수 있으면 넣자
     return(
@@ -16,22 +21,22 @@ function Profile(){
                 </div>
                 <div className={styles.info}>
                     <Info 
-                        img={"/img/profile/person.png"}
+                        img={personImg}
                         info={"Name"}
                         content={"조남현"}
                     />
                     <Info 
-                        img={"/img/profile/calendar.png"}
+                        img={calendarImg}
                         info={"Birth"}
                         content={"01.07.28"}
                     />
                     <Info 
-                        img={"/img/profile/phone.png"}
+                        img={phoneImg}
                         info={"Phone number"}
                         content={"010-7280-0134"}
                     />
                     <Info 
-                        img={"/img/profile/email.png"}
+                        img={emailImg}
                         info={"Contact"}
                         content={"cnh0728@gmail.com"}
                     />
