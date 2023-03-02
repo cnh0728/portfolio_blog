@@ -3,12 +3,11 @@
   display: flex;
   justify-content: center;
   padding-top: 10vh;
+  margin-bottom: 40vh;
 }
 
 .projects {
-  position: absolute;
-  z-index: 0;
-
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, minmax(400px, 1fr));
   grid-gap: 100px;

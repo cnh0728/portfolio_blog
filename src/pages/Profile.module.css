@@ -38,23 +38,8 @@
     padding-right: 15vw;
     padding-top: 5vh;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 19px;
 
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
 }
 
 .framework{
